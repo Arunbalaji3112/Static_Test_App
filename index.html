@@ -6,7 +6,32 @@
 
         <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="assets/css/styles.css">
+<style>
+    :root {
+        --purple: #6C63FF;
+        --purple-dark: #5A52E0;
+    }
 
+    .form__button {
+        background-color: var(--purple) !important;
+        border-radius: 10px;
+        transition: 0.3s ease;
+    }
+
+    .form__button:hover {
+        background-color: var(--purple-dark) !important;
+        box-shadow: 0 8px 20px rgba(108, 99, 255, 0.4);
+        transform: translateY(-2px);
+    }
+
+    .form__input:focus {
+        border-color: var(--purple) !important;
+    }
+
+    .form__icon i {
+        color: var(--purple) !important;
+    }
+</style>
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -63,4 +88,5 @@
         <!-- ===== MAIN JS ===== -->
         <script src="assets/js/main.js"></script>
     </body>
+
 </html>
